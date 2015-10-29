@@ -1,5 +1,5 @@
 function sayHello(str){
-	return str + 'ello';
+	return 'hello ' + str;
 }
 
-sayHello('he');
+module.exports = sayHello;

@@ -1,8 +1,10 @@
+jest.dontMock('../hello.js');
 var hello = require('../hello.js')
 
 
-describe('Tests', function(){
-	it('runs a jest test', function(){
-		expect(1 + 1).toEqual(2);
+describe('hello', function(){
+	it('prints something', function(){
+		console.log(hello);
+		expect(hello('there')).toEqual('hello there');
 	})
 });
