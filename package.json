@@ -1,0 +1,22 @@
+{
+  "name": "JestStarter",
+  "version": "0.0.1",
+  "description": "Blank Starter for TDD workshop",
+  "main": "hello.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "na"
+  },
+  "keywords": [
+    "TDD"
+  ],
+  "author": "Taylor Harwin",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "jest-cli": "^0.6.1"
+  }
+}
